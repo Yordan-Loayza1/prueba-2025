@@ -1,0 +1,113 @@
+/**General**/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+/* .nav-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+
+} */
+
+.nav-menu a:hover {
+    background: yellow;
+    color: black;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: background 0.3s;
+    font-size: 20px;
+    list-style-position: inside;
+    width: auto;
+
+}
+/* titulos */
+.titulo-main {
+    position: relative;
+    z-index: 2;
+    font-size: 1.7rem;
+    color: yellow;
+    padding-right: 40rem;
+
+}
+
+.titulo-main h1 {
+    margin-top: 20rem;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.titulo-title h2 {
+    margin-top: 20rem;
+    font-weight: bold;
+    font-size: 3rem;
+
+
+}
+/* fondo */
+.fondo-title {
+    background-image: url(/img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 35rem;
+    position: relative;
+    padding-left: 5rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.products {
+    padding: 4rem 10rem;
+    text-align: center;
+}
+.lista-products {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+
+}
+.lista-products h3 {
+    font-size: 2rem;
+    color: rgb(230, 230, 49);
+
+}
+.lista-products p {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+.lista-products a {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #e8f71c;
+
+}
